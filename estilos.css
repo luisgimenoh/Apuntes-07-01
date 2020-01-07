@@ -1,0 +1,64 @@
+/*
+body{
+    background-color: blue;
+}
+
+div{
+    border: black 3px solid;
+    color: red;/*NO se aplica porq se aplica el de abajo, p
+}
+
+p{
+    color: blue;
+}
+
+p#nuevo{
+    color: red;
+}
+*/
+
+/*
+div#viejo {
+    border: black 3px solid;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  div#viejo p#nuevo {
+    color: black;
+  }
+  
+  div p#nuevo {
+    color: red;
+  }
+*/
+
+/*
+div {
+    border: black 3px solid;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  div p {
+    color: red;
+  }
+  
+  p {
+    color: black;
+  }
+*/
+
+div {
+    border: black 3px solid;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  p {
+    color: red;
+  }
+  
+  div p {
+    color: blue;
+  }
